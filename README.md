@@ -1,2 +1,2 @@
-# vue-lib-practive
+# vue-lib-practice
 practice to create vue component
