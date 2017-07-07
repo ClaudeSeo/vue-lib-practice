@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+		<script src="../dist/echo.min.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<echo message="Hello"></echo>
+			<h1>World</h1>
+		</div>
+		<script>
+		Vue.component('echo', Echo)
+		new Vue({
+			el: '#app'
+		})
+		</script>
+	</body>
+</html>
